@@ -25,8 +25,6 @@ class Stack():
             return result
         return False
         
-        
-        
 stack = []
 
 def add_val(val):
@@ -37,7 +35,6 @@ def pop_val():
     if len(stack) > 0:
         return stack.pop()
     return False
-
 
 class SListNode():
     def __init__(self, payload=None, nxt=None):
