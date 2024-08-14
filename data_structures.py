@@ -115,9 +115,6 @@ class SLinkList(SListNode):
             return True
         return self.recursive_print(node=node.nxt)
     
-    
-
-
 def test_sLinkList():
     empty_ssl = SLinkList()
     def test_append():
